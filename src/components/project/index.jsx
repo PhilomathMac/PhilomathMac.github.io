@@ -97,7 +97,7 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
                 </h5>
               </span>
             </div>
-            <div>
+            <div style={{width: "100%", height: "100%", objectFit: "cover"}}>
               <img style={{maxWidth: "100px", maxHeight: "100px"}} src={'https://raw.githubusercontent.com/PhilomathMac/'+item.name+'/main/PortfolioImage.png'} onError={i => i.target.style.display='none'}>
               </img>
             </div>
