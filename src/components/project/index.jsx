@@ -97,7 +97,7 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
                 </h5>
               </span>
             </div>
-            <img src="https://raw.githubusercontent.com/PhilomathMac/philomathmac/main/Assets/MeCoding.png" >
+            <img src={'https://raw.githubusercontent.com/PhilomathMac/'+item.name+'/main/PortfolioImage.png'} alt="Project Image">
             </img>
             <p className="mb-5 mt-1 text-base-content text-opacity-60 text-sm">
               {item.description}
