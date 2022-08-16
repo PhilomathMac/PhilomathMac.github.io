@@ -93,10 +93,12 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
               </svg>
               <span>
                 <h5 className="card-title text-lg text-base-content">
-                  Bob
+                  {item.name}
                 </h5>
               </span>
             </div>
+            <img src="https://raw.githubusercontent.com/PhilomathMac/philomathmac/main/Assets/MeCoding.png" >
+            </img>
             <p className="mb-5 mt-1 text-base-content text-opacity-60 text-sm">
               {item.description}
             </p>
