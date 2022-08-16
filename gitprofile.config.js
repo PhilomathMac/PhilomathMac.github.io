@@ -160,8 +160,8 @@ const config = {
       accent: '#c879ff',
       neutral: '#2A2730',
       'base-100': '#E3E3ED',
-      '--rounded-box': '3rem',
-      '--rounded-btn': '3rem',
+      '--rounded-box': '1rem',
+      '--rounded-btn': '1rem',
     },
   },
 };
