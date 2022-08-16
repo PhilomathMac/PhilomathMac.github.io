@@ -93,7 +93,7 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
               </svg>
               <span>
                 <h5 className="card-title text-lg text-base-content">
-                  {item.name}
+                  Bob
                 </h5>
               </span>
             </div>
