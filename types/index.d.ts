@@ -226,16 +226,16 @@ export interface Config {
    * Skill list
    */
   skills?: Array<string>;
-
-  /**
-   * Experience list
-   */
-  experiences?: Array<Experience>;
-
+  
   /**
    * Education list
    */
   education?: Array<Education>;
+  
+  /**
+   * Experience list
+   */
+  experiences?: Array<Experience>;
 
   /**
    * Blog config
