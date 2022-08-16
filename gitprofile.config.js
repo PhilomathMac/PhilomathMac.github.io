@@ -36,26 +36,6 @@ const config = {
     'GitHub',
     'App Design'
   ],
-  experiences: [
-    {
-      company: 'Pearl Zanker Elementary',
-      position: 'Science Specialist',
-      from: 'Aug 2018',
-      to: 'Jun 2021',
-    },
-    {
-      company: 'Tyfoom',
-      position: 'Content Specialist',
-      from: 'Sep 2017',
-      to: 'Aug 2018',
-    },
-    {
-      company: 'Canyon View Junior High',
-      position: 'Science Teacher',
-      from: 'Aug 2014',
-      to: 'Sep 2017',
-    }
-  ],
   education: [
     {
       institution: 'University of Phoenix',
@@ -92,6 +72,26 @@ const config = {
       degree: 'Bachelor of Science in Biological Science Education - Magna Cum Laude',
       from: 'Aug 2010',
       to: 'Apr 2014',
+    }
+  ],
+  experiences: [
+    {
+      company: 'Pearl Zanker Elementary',
+      position: 'Science Specialist',
+      from: 'Aug 2018',
+      to: 'Jun 2021',
+    },
+    {
+      company: 'Tyfoom',
+      position: 'Content Specialist',
+      from: 'Sep 2017',
+      to: 'Aug 2018',
+    },
+    {
+      company: 'Canyon View Junior High',
+      position: 'Science Teacher',
+      from: 'Aug 2014',
+      to: 'Sep 2017',
     }
   ],
   // Display blog posts from your medium or dev account. (Optional)
