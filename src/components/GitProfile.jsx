@@ -255,18 +255,18 @@ GitProfile.propTypes = {
       email: PropTypes.string,
     }),
     skills: PropTypes.array,
-    experiences: PropTypes.arrayOf(
-      PropTypes.shape({
-        company: PropTypes.string,
-        position: PropTypes.string,
-        from: PropTypes.string,
-        to: PropTypes.string,
-      })
-    ),
     education: PropTypes.arrayOf(
       PropTypes.shape({
         institution: PropTypes.string,
         degree: PropTypes.string,
+        from: PropTypes.string,
+        to: PropTypes.string,
+      })
+    ),
+    experiences: PropTypes.arrayOf(
+      PropTypes.shape({
+        company: PropTypes.string,
+        position: PropTypes.string,
         from: PropTypes.string,
         to: PropTypes.string,
       })
