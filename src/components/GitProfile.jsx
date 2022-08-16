@@ -167,13 +167,13 @@ const GitProfile = ({ config }) => {
                         loading={loading}
                         skills={sanitizedConfig.skills}
                       />
-                      <Experience
-                        loading={loading}
-                        experiences={sanitizedConfig.experiences}
-                      />
                       <Education
                         loading={loading}
                         education={sanitizedConfig.education}
+                      />
+                      <Experience
+                        loading={loading}
+                        experiences={sanitizedConfig.experiences}
                       />
                     </div>
                   </div>
