@@ -14,7 +14,6 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
               <div className="flex items-center">
                 <span>
                   <h5 className="card-title text-lg">
-                    blah
                     {skeleton({ width: 'w-32', height: 'h-8' })}
                   </h5>
                 </span>
