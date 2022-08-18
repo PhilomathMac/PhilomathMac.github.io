@@ -3,7 +3,7 @@
 const config = {
   github: {
     username: 'PhilomathMac', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
+    sortBy: 'updated', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
       forks: true, // Forked projects will not be displayed if set to true.
@@ -109,7 +109,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'garden',
+    defaultTheme: 'procyon',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
