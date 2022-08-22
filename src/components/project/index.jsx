@@ -97,9 +97,9 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
                 </h5>
               </span>
             </div>
-            <div alignSelf="center" vspace="20" style={{objectFit: "contain", width: "200px", borderRadius: "10px"}}>
+            <div alignSelf="center" vspace="20" style={{width: "100%", maxHeight: "300px", objectFit: "cover", overflow:"hidden", borderRadius: "10px"}}>
               <br/>
-              <img src={'https://raw.githubusercontent.com/PhilomathMac/'+item.name+'/main/PortfolioImage.png'} style={{margin="auto", display="auto"}} onError={i => i.target.parentElement.style.display='none'}>
+              <img src={'https://raw.githubusercontent.com/PhilomathMac/'+item.name+'/main/PortfolioImage.png'} onError={i => i.target.parentElement.style.display='none'}>
               </img>
               <br/>
             </div>
