@@ -97,7 +97,7 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
                 </h5>
               </span>
             </div>
-            <div alignSelf="center" vspace="20" style={{objectFit: "contain", maxWidth: "100%", maxHeight: "400px", borderRadius: "10px"}}>
+            <div alignSelf="center" vspace="20" style={{maxWidth: "100%", maxHeight: "400px", objectFit: "contain", overflow="scroll", borderRadius: "10px"}}>
               <br/>
               <img src={'https://raw.githubusercontent.com/PhilomathMac/'+item.name+'/main/PortfolioImage.png'} onError={i => i.target.parentElement.style.display='none'}>
               </img>
