@@ -38,20 +38,14 @@ const config = {
   ],
   education: [
     {
-      institution: 'University of Phoenix',
-      degree: 'Bachelor of Science in Information Technology - Summa Cum Laude',
-      from: 'Jul 2020',
-      to: 'Apr 2022',
-    },
-    {
-      institution: 'University of Phoenix',
-      degree: 'Advanced Software Developer Certificate - Summa Cum Laude',
-      from: 'Jul 2020',
-      to: 'Apr 2022',
-    },
-    {
       institution: 'Udemy',
       degree: 'The Git & GitHub Bootcamp',
+      from: 'June 2022',
+      to: 'Aug 2022',
+    },
+    {
+      institution: 'Apple',
+      degree: 'App Development with Swift Certified User Certificate',
       from: 'June 2022',
       to: 'Aug 2022',
     },
@@ -62,10 +56,16 @@ const config = {
       to: 'Jul 2022',
     },
     {
-      institution: 'Apple',
-      degree: 'App Development with Swift Certified User Certificate',
-      from: 'June 2022',
-      to: 'Aug 2022',
+      institution: 'University of Phoenix',
+      degree: 'Bachelor of Science in Information Technology - Summa Cum Laude',
+      from: 'Jul 2020',
+      to: 'Apr 2022',
+    },
+    {
+      institution: 'University of Phoenix',
+      degree: 'Advanced Software Developer Certificate - Summa Cum Laude',
+      from: 'Jul 2020',
+      to: 'Apr 2022',
     },
     {
       institution: 'Brigham Young University',
