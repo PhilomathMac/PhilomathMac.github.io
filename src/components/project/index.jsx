@@ -110,6 +110,7 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
 
           <div className="flex justify-between text-sm text-base-content text-opacity-60">
 {/*
+This section displays star and fork count
             <div className="flex flex-grow">
               <span className="mr-3 flex items-center">
                 <AiOutlineStar className="mr-0.5" />
