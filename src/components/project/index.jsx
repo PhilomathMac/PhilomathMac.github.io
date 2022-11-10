@@ -107,7 +107,6 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
               {item.description}
             </p>
           </div>
-          {/*
           <div className="flex justify-between text-sm text-base-content text-opacity-60">
             <div className="flex flex-grow">
               <span className="mr-3 flex items-center">
@@ -119,7 +118,6 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
                 <span>{item.forks_count}</span>
               </span>
             </div>
-                        */}
             <div>
               <span className="flex items-center">
                 <div
