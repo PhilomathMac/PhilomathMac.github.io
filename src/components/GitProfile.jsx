@@ -167,6 +167,10 @@ const GitProfile = ({ config }) => {
                         loading={loading}
                         skills={sanitizedConfig.skills}
                       />
+                      <img
+                        src="https://ghchart.rshah.org/fb2d69/philomathmac"
+                        alt="PhilomathMac's Github History Chart"
+                      />
                       <Education
                         loading={loading}
                         education={sanitizedConfig.education}
