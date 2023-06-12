@@ -181,11 +181,11 @@ const GitProfile = ({ config }) => {
                       />
                     </div>
                   </div>
-                  <img
-                    src="https://ghchart.rshah.org/fb2d69/philomathmac"
-                    alt="PhilomathMac's Github History Chart"
-                  />
                   <div className="lg:col-span-2 col-span-1">
+                    <img
+                      src="https://ghchart.rshah.org/fb2d69/philomathmac"
+                      alt="PhilomathMac's Github History Chart"
+                    />
                     <div className="grid grid-cols-1 gap-6">
                       <Project
                         repo={repo}
