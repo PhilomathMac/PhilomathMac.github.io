@@ -6,6 +6,7 @@ import ThemeChanger from './theme-changer';
 import AvatarCard from './avatar-card';
 import Details from './details';
 import Skill from './skill';
+import GitHubGraph from './github-graph';
 import Experience from './experience';
 import Education from './education';
 import Project from './project';
@@ -167,9 +168,8 @@ const GitProfile = ({ config }) => {
                         loading={loading}
                         skills={sanitizedConfig.skills}
                       />
-                      <img
-                        src="https://ghchart.rshah.org/fb2d69/philomathmac"
-                        alt="PhilomathMac's Github History Chart"
+                      <GitHubGraph
+                        loading={loading}
                       />
                       <Education
                         loading={loading}
