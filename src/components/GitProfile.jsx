@@ -168,9 +168,6 @@ const GitProfile = ({ config }) => {
                         loading={loading}
                         skills={sanitizedConfig.skills}
                       />
-                      <GitHubGraph
-                        loading={loading}
-                      />
                       <Education
                         loading={loading}
                         education={sanitizedConfig.education}
@@ -183,6 +180,9 @@ const GitProfile = ({ config }) => {
                   </div>
                   <div className="lg:col-span-2 col-span-1">
                     <div className="grid grid-cols-1 gap-6">
+                      <GitHubGraph
+                        loading={loading}
+                      />
                       <Project
                         repo={repo}
                         loading={loading}
