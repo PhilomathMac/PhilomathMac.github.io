@@ -87,6 +87,18 @@ const config = {
     }
   ],
   experiences: [
+     {
+      company: 'ApproachableGeek',
+      position: 'Software Engineer I',
+      from: 'May 2023',
+      to: 'Present',
+    },
+     {
+      company: 'ApproachableGeek',
+      position: 'Junior Software Developer',
+      from: 'Jan 2023',
+      to: 'May 2023',
+    },
     {
       company: 'Pearl Zanker Elementary',
       position: 'Science Specialist',
