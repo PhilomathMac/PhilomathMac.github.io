@@ -185,7 +185,7 @@ const GitProfile = ({ config }) => {
                         loading={loading}
                       />
                       <Work_Projects
-                        work_projects={sanitizeConfig.work_projects}
+                        work_projects={sanitizedConfig.work_projects}
                         loading={loading}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       />
