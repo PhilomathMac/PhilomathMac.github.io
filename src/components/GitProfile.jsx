@@ -185,7 +185,7 @@ const GitProfile = ({ config }) => {
                         loading={loading}
                       />
                       <Work_Project
-                        work_project={[]}
+                        work_project={sanitizeConfig.work_projects}
                         loading={loading}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       />
@@ -271,6 +271,14 @@ GitProfile.propTypes = {
         degree: PropTypes.string,
         from: PropTypes.string,
         to: PropTypes.string,
+      })
+    ),
+    work_projects: PropTypes.arrayOf(
+      PropTypes.shape({
+        html_url: PropTypes.string,
+        name: PropTypes.string,
+        image_url: PropTypes.string,
+        description: PropTypes.string,
       })
     ),
     experiences: PropTypes.arrayOf(

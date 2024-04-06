@@ -86,6 +86,14 @@ const config = {
       to: 'Apr 2014',
     }
   ],
+  work_projects: [
+    {
+      html_url: 'https://www.approachablegeek.com/work/idafan',
+      name: 'Idafan',
+      image_url: 'https://approachablegeek.work/Idafan_ticket_38bdfe1930.webp',
+      description: 'Descriptiation testing',
+    }
+  ],
   experiences: [
      {
       company: 'ApproachableGeek',
