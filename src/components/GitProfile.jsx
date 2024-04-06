@@ -10,6 +10,7 @@ import GitHubGraph from './github-graph';
 import Experience from './experience';
 import Education from './education';
 import Project from './project';
+import Work_Project from './work-projects';
 import Blog from './blog';
 import {
   genericError,
@@ -172,10 +173,6 @@ const GitProfile = ({ config }) => {
                         loading={loading}
                         experiences={sanitizedConfig.experiences}
                       />
-                      <Experience
-                        loading={loading}
-                        experiences={sanitizedConfig.experiences}
-                      />
                       <Education
                         loading={loading}
                         education={sanitizedConfig.education}
@@ -187,10 +184,9 @@ const GitProfile = ({ config }) => {
                       <GitHubGraph
                         loading={loading}
                       />
-                      <Project
-                        repo={repo}
+                      <Work_Project
+                        work_project={[]}
                         loading={loading}
-                        github={sanitizedConfig.github}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       />
                       <Project
