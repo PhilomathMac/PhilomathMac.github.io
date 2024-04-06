@@ -152,8 +152,8 @@ const config = {
     {
       company: 'Approachable Geek',
       position: 'Software Engineer I',
-      from: 'Jan 2024',
-      to: 'Present',
+      from: 'May 2023',
+      to: 'Jan 2024',
     },
     {
       company: 'Approachable Geek',
