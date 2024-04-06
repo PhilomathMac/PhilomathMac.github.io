@@ -120,7 +120,7 @@ const config = {
     {
       html_url: 'https://www.approachablegeek.com/work/idafan',
       name: 'Idafan',
-      image_url: 'https://github.com/PhilomathMac/PhilomathMac.github.io/blob/main/idafan.png',
+      image_url: 'https://raw.githubusercontent.com/PhilomathMac/PhilomathMac.github.io/main/idafan.png',
       description: 'Ticketing platform to help schools create and manage events. A purchasing system that adds tickets and passes to Apple wallet.',
     },
     {
