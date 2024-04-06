@@ -84,10 +84,10 @@ const Work_Projects = ({work_projects, loading, googleAnalytics }) => {
         </h5>
       </span>
     </div>
-    <div style={{ display: "flex", justifyContent: "center", height: "300px", overflow: "hidden", borderRadius: "10px" }}>
+    <div style={{ display: "flex", justifyContent: "center", height: "300px", overflow: "hidden", borderRadius: "10px", paddingTop: "10px" }}>
       <img src={item.image_url} onError={i => i.target.parentElement.style.display = 'none'} style={{ maxWidth: "100%", height: "300px", objectFit: "contain", overflow: 'hidden' }} />
     </div>
-    <p className="mb-5 mt-1 text-base-content text-opacity-60 text-sm">
+    <p className="mb-5 mt-1 text-base-content text-opacity-60 text-sm" style={{ paddingTop: "10px" }}>
       {item.description}
     </p>
   </div>
