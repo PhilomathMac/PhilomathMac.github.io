@@ -10,7 +10,7 @@ import GitHubGraph from './github-graph';
 import Experience from './experience';
 import Education from './education';
 import Project from './project';
-import Work_Project from './work-projects';
+import Work_Projects from './work-projects';
 import Blog from './blog';
 import {
   genericError,
@@ -184,8 +184,8 @@ const GitProfile = ({ config }) => {
                       <GitHubGraph
                         loading={loading}
                       />
-                      <Work_Project
-                        work_project={sanitizeConfig.work_projects}
+                      <Work_Projects
+                        work_projects={sanitizeConfig.work_projects}
                         loading={loading}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       />

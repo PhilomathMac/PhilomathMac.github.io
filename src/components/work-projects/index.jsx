@@ -3,7 +3,7 @@ import { AiOutlineStar, AiOutlineFork } from 'react-icons/ai';
 import PropTypes from 'prop-types';
 import { ga, languageColor, skeleton } from '../../helpers/utils';
 
-const Work_Project = ({work_project, loading, googleAnalytics }) => {
+const Work_Projects = ({work_projects, loading, googleAnalytics }) => {
   const renderSkeleton = () => {
     let array = [];
     for (let index = 0; index < 5; index++) {
@@ -51,7 +51,7 @@ const Work_Project = ({work_project, loading, googleAnalytics }) => {
   };
 
   const renderProjects = () => {
-    return work_project.map((item, index) => (
+    return work_projects.map((item, index) => (
       <a
         className="card shadow-lg compact bg-base-100 cursor-pointer"
         href={item.html_url}
@@ -122,7 +122,7 @@ const Work_Project = ({work_project, loading, googleAnalytics }) => {
                 </div>
                 <div className="col-span-2">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {loading || !work_project ? renderSkeleton() : renderProjects()}
+                    {loading || !work_projects ? renderSkeleton() : renderProjects()}
                   </div>
                 </div>
               </div>
@@ -134,10 +134,10 @@ const Work_Project = ({work_project, loading, googleAnalytics }) => {
   );
 };
 
-Work_Project.propTypes = {
-  work_project: PropTypes.array,
+Work_Projects.propTypes = {
+  work_projects: PropTypes.array.isRequired,
   loading: PropTypes.bool.isRequired,
   googleAnalytics: PropTypes.object.isRequired,
 };
 
-export default Work_Project;
+export default Work_Projects;
