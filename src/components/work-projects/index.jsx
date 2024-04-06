@@ -84,9 +84,9 @@ const Work_Projects = ({work_projects, loading, googleAnalytics }) => {
                 </h5>
               </span>
             </div>
-            <div alignSelf="center" vspace="20" style={{objectFit: "contain", overflow: "hidden", borderRadius: "10px"}}>
+            <div alignSelf="center" vspace="20" style={{objectFit: "cover", overflow: "hidden", borderRadius: "10px"}}>
               <br/>
-              <img src={item.image_url} onError={i => i.target.parentElement.style.display='none'} style={{width: "1158", height: "628", objectFit: "contain", overflow: 'hidden'}}>
+              <img src={item.image_url} onError={i => i.target.parentElement.style.display='none'} style={{width: "1158", height: "628", objectFit: "cover", overflow: 'hidden'}}>
               </img>
               <br/>
             </div>
