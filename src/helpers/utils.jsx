@@ -134,6 +134,7 @@ export const sanitizeConfig = (config) => {
     'procyon',
   ];
 
+  console.log(config)
   return {
     github: {
       username: config?.github?.username || '',
