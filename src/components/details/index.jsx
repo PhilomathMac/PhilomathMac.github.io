@@ -88,11 +88,7 @@ const Details = ({ profile, loading, social, github }) => {
                   icon={<FaBuilding className="mr-2" />}
                   title="Company:"
                   value={profile.company}
-                  link={
-                    isCompanyMention(profile.company.trim())
-                      ? companyLink(profile.company.trim())
-                      : null
-                  }
+                  link={'https://www.approachablegeek.com/'}
                 />
               )}
               <ListItem
