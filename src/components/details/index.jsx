@@ -34,11 +34,7 @@ const ListItem = ({ icon, title, value, link, skeleton = false }) => {
           skeleton ? 'flex-grow' : ''
         } text-sm font-normal text-right mr-2 ml-3 ${link ? 'truncate' : ''}`}
       >
-        <div
-          style={{
-            wordBreak: 'break-word',
-          }}
-        >
+        <div style={{ wordBreak: 'break-word', textDecoration: link ? 'underline' : 'none' }} >
           {value}
         </div>
       </div>
@@ -51,7 +47,7 @@ const isCompanyMention = (company) => {
 };
 
 const companyLink = (company) => {
-  return `https://github.com/${company.substring(1)}`;
+  return `https://www.approachablegeek.com/`;
 };
 
 const Details = ({ profile, loading, social, github }) => {

@@ -144,19 +144,19 @@ const config = {
   ],
   experiences: [
     {
-      company: 'ApproachableGeek',
+      company: 'Approachable Geek',
       position: 'Software Engineer II',
       from: 'Jan 2024',
       to: 'Present',
     },
     {
-      company: 'ApproachableGeek',
+      company: 'Approachable Geek',
       position: 'Software Engineer I',
       from: 'Jan 2024',
       to: 'Present',
     },
     {
-      company: 'ApproachableGeek',
+      company: 'Approachable Geek',
       position: 'Junior Software Developer',
       from: 'Jan 2023',
       to: 'May 2023',
