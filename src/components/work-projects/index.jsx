@@ -75,7 +75,7 @@ const Work_Projects = ({work_projects, loading, googleAnalytics }) => {
           window?.open(item.html_url, '_blank');
         }}
       >
-        <div className="flex justify-between flex-col p-8 h-full w-full">
+<div className="flex justify-between flex-col p-8 h-full w-full">
   <div>
     <div className="flex items-center opacity-60">
       <span>
@@ -84,7 +84,7 @@ const Work_Projects = ({work_projects, loading, googleAnalytics }) => {
         </h5>
       </span>
     </div>
-    <div style={{ maxWidth: "100%", height: "300px", overflow: "hidden", borderRadius: "10px" }}>
+    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "628px", maxWidth: "100%", overflow: "hidden", borderRadius: "10px" }}>
       <img src={item.image_url} onError={i => i.target.parentElement.style.display = 'none'} style={{ maxWidth: "100%", height: "300px", objectFit: "contain", overflow: 'hidden' }} />
     </div>
     <p className="mb-5 mt-1 text-base-content text-opacity-60 text-sm">
