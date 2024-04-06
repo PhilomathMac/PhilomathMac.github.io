@@ -75,23 +75,25 @@ const Work_Projects = ({work_projects, loading, googleAnalytics }) => {
           window?.open(item.html_url, '_blank');
         }}
       >
-<div className="flex justify-between flex-col p-8 h-full w-full">
-  <div>
-    <div className="flex items-center opacity-60">
-      <span>
-        <h5 className="card-title text-lg text-base-content">
-          {item.name}
-        </h5>
-      </span>
-    </div>
-    <div style={{ display: "flex", justifyContent: "center", height: "300px", overflow: "hidden", borderRadius: "10px", paddingTop: "10px" }}>
-      <img src={item.image_url} onError={i => i.target.parentElement.style.display = 'none'} style={{ maxWidth: "100%", height: "300px", objectFit: "contain", overflow: 'hidden' }} />
-    </div>
-    <p className="mb-5 mt-1 text-base-content text-opacity-60 text-sm" style={{ paddingTop: "10px" }}>
-      {item.description}
-    </p>
-  </div>
-</div>
+      <div className="flex justify-between flex-col p-8 h-full w-full">
+        <div>
+          <div className="flex items-center opacity-60">
+              <span>
+                <h5 className="card-title text-lg text-base-content">
+                  {item.name}
+                </h5>
+              </span>
+            </div>
+          <div style={{paddingTop: "10px", paddingBottom: "10px" }}>
+            <div style={{ display: "flex", justifyContent: "center", height: "300px", overflow: "hidden", borderRadius: "10px"}}>
+              <img src={item.image_url} onError={i => i.target.parentElement.style.display = 'none'} style={{ maxWidth: "100%", height: "300px", objectFit: "contain", overflow: 'hidden' }} />
+            </div>
+          </div>
+          <p className="mb-5 mt-1 text-base-content text-opacity-60 text-sm">
+            {item.description}
+          </p>
+        </div>
+      </div>
       </a>
     ));
   };
