@@ -115,7 +115,7 @@ const Work_Projects = ({work_projects, loading, googleAnalytics }) => {
                       skeleton({ width: 'w-28', height: 'h-8' })
                     ) : (
                       <span className="text-base-content opacity-70">
-                        Apps I've Built At Work - Testing
+                        Apps I've Built At Work
                       </span>
                     )}
                   </h5>
@@ -142,7 +142,7 @@ Work_Projects.propTypes = {
       image_url: PropTypes.string,
       description: PropTypes.string,
     })
-  ),
+  ).isRequired,
   loading: PropTypes.bool.isRequired,
   googleAnalytics: PropTypes.object.isRequired,
 };
