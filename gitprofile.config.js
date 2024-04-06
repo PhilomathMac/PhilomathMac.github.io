@@ -11,7 +11,7 @@ const config = {
     },
   },
   social: {
-    linkedin: 'www.linkedin.com/in/mckenzie-macdonald-2b5843236',
+    linkedin: 'mckenzie-macdonald-2b5843236',
     twitter: '',
     facebook: '',
     instagram: '',
