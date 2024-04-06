@@ -168,13 +168,17 @@ const GitProfile = ({ config }) => {
                         loading={loading}
                         skills={sanitizedConfig.skills}
                       />
-                      <Education
+                      <Experience
                         loading={loading}
-                        education={sanitizedConfig.education}
+                        experiences={sanitizedConfig.experiences}
                       />
                       <Experience
                         loading={loading}
                         experiences={sanitizedConfig.experiences}
+                      />
+                      <Education
+                        loading={loading}
+                        education={sanitizedConfig.education}
                       />
                     </div>
                   </div>
@@ -182,6 +186,12 @@ const GitProfile = ({ config }) => {
                     <div className="grid grid-cols-1 gap-6">
                       <GitHubGraph
                         loading={loading}
+                      />
+                      <Project
+                        repo={repo}
+                        loading={loading}
+                        github={sanitizedConfig.github}
+                        googleAnalytics={sanitizedConfig.googleAnalytics}
                       />
                       <Project
                         repo={repo}
