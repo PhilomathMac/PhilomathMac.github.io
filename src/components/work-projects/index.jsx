@@ -75,25 +75,26 @@ const Work_Projects = ({work_projects, loading, googleAnalytics }) => {
           window?.open(item.html_url, '_blank');
         }}
       >
-      <div className="flex justify-between flex-col p-8 h-full w-full">
-  <div style={{ display: "flex", flexDirection: "column", height: "100%" }}>
-    <div style={{ marginBottom: "auto" }}>
-      <div className="flex items-center opacity-60 mb-2">
-        <h5 className="card-title text-lg text-base-content">
-          {item.name}
-        </h5>
-      </div>
-      <div style={{ alignSelf: "center", marginBottom: "10px", objectFit: "contain", overflow: "hidden", borderRadius: "10px" }}>
-        <img src={item.image_url} onError={i => i.target.parentElement.style.display = 'none'} style={{ width: "1158px", height: "628px", objectFit: "contain", overflow: 'hidden' }} alt="item" />
-      </div>
-    </div>
-    <div style={{ marginTop: "auto" }}>
-      <p className="mb-5 mt-1 text-base-content text-opacity-60 text-sm">
-        {item.description}
-      </p>
-    </div>
-  </div>
-</div>
+        <div className="flex justify-between flex-col p-8 h-full w-full">
+          <div>
+            <div className="flex items-center opacity-60">
+              <span>
+                <h5 className="card-title text-lg text-base-content">
+                  {item.name}
+                </h5>
+              </span>
+            </div>
+            <div alignSelf="center" vspace="20" style={{objectFit: "contain", overflow: "hidden", borderRadius: "10px"}}>
+              <br/>
+              <img src={item.image_url} onError={i => i.target.parentElement.style.display='none'} style={{width: "1158", height: "628", objectFit: "contain", overflow: 'hidden'}}>
+              </img>
+              <br/>
+            </div>
+            <p className="mb-5 mt-1 text-base-content text-opacity-60 text-sm">
+              {item.description}
+            </p>
+          </div>
+        </div>
       </a>
     ));
   };
