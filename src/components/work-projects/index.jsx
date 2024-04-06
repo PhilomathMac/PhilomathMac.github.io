@@ -135,7 +135,14 @@ const Work_Projects = ({work_projects, loading, googleAnalytics }) => {
 };
 
 Work_Projects.propTypes = {
-  work_projects: PropTypes.array.isRequired,
+  work_projects: PropTypes.arrayOf(
+    PropTypes.shape({
+      html_url: PropTypes.string,
+      name: PropTypes.string,
+      image_url: PropTypes.string,
+      description: PropTypes.string,
+    })
+  ),
   loading: PropTypes.bool.isRequired,
   googleAnalytics: PropTypes.object.isRequired,
 };
