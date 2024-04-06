@@ -115,7 +115,7 @@ const Work_Project = ({work_project, loading, googleAnalytics }) => {
                       skeleton({ width: 'w-28', height: 'h-8' })
                     ) : (
                       <span className="text-base-content opacity-70">
-                        Apps I've Built At Work
+                        Apps I've Built At Work - Testing
                       </span>
                     )}
                   </h5>
