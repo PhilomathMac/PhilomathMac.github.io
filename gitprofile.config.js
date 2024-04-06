@@ -103,7 +103,7 @@ const config = {
       html_url: 'https://www.approachablegeek.com/work/ezilpro',
       name: 'Ezilpro',
       image_url: 'https://approachablegeek.work/PROJECT_IMAGE_EZILPRO_6e33f4be0d.png',
-      description: 'Custom customer relationship management platform with aggregation graphs, calendar, database management, change-logs, and chat.',
+      description: 'Custom customer relationship management platform with aggregation graphs, calendar, database management, version history, and chat.',
     },
     {
       html_url: 'https://www.approachablegeek.com/work/rids-brother',
@@ -115,13 +115,13 @@ const config = {
       html_url: 'https://www.approachablegeek.com/work/idafan',
       name: 'Idafan',
       image_url: 'https://approachablegeek.work/Idafan_ticket_38bdfe1930.webp',
-      description: 'Ticketing platform to help schools create and manage events. Also includes a purchasing system that adds tickets and passes to Apple wallet.',
+      description: 'Ticketing platform to help schools create and manage events. Also includes a purchasing system that adds tickets and passes to Apple Wallet.',
     },
     {
       html_url: 'https://www.approachablegeek.com/work/my-book',
       name: 'MyBook',
       image_url: 'https://approachablegeek.work/Project_Thumb_cb2d971b45.png',
-      description: 'Mobile application for storing, viewing, and editing sheet music. Includes offline support, apple pencil markup, and performance mode.',
+      description: 'Mobile application for storing, viewing, and editing sheet music. Includes offline support, Apple Pencil markup, and distraction-free performance mode.',
     },
     {
       html_url: 'https://www.approachablegeek.com/work/penlitics',
@@ -139,7 +139,7 @@ const config = {
       html_url: 'https://www.approachablegeek.com/work/scout-traks',
       name: 'ScoutTraks',
       image_url: 'https://approachablegeek.work/PROJECT_IMAGE_8a120346e7_5e4b372847.png',
-      description: 'Project management software with iPad app to allow foreman to mark-up blueprints as they navigate construction sites without internet.',
+      description: 'Project management software with iPad app to allow foremen to mark-up blueprints as they navigate construction sites without internet.',
     },
   ],
   experiences: [
