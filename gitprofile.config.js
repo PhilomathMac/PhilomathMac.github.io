@@ -94,12 +94,6 @@ const config = {
   ],
   work_projects: [
     {
-      html_url: 'https://www.approachablegeek.com/work/my-book',
-      name: 'MyBook',
-      image_url: 'https://approachablegeek.work/Project_Thumb_cb2d971b45.png',
-      description: 'Mobile application for storing, viewing, and editing sheet music. Includes offline support, apple pencil markup, and performance mode.',
-    },
-    {
       html_url: 'https://www.approachablegeek.com/work/mapi-fi',
       name: 'Mapi-fi',
       image_url: 'https://approachablegeek.work/mapifi_on_display_a0c37caa3d.png',
@@ -122,6 +116,12 @@ const config = {
       name: 'Idafan',
       image_url: 'https://raw.githubusercontent.com/PhilomathMac/PhilomathMac.github.io/main/idafan.png',
       description: 'Ticketing platform to help schools create and manage events. A purchasing system that adds tickets and passes to Apple wallet.',
+    },
+    {
+      html_url: 'https://www.approachablegeek.com/work/my-book',
+      name: 'MyBook',
+      image_url: 'https://approachablegeek.work/Project_Thumb_cb2d971b45.png',
+      description: 'Mobile application for storing, viewing, and editing sheet music. Includes offline support, apple pencil markup, and performance mode.',
     },
     {
       html_url: 'https://www.approachablegeek.com/work/penlitics',
