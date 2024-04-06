@@ -5,8 +5,9 @@ import { ga, languageColor, skeleton } from '../../helpers/utils';
 
 const Work_Projects = ({work_projects, loading, googleAnalytics }) => {
   const renderSkeleton = () => {
+    console.log({work_projects, loading, googleAnalytics });
     let array = [];
-    for (let index = 0; index < 5; index++) {
+    for (let index = 0; index < 4; index++) {
       array.push(
         <div className="card shadow-lg compact bg-base-100" key={index}>
           <div className="flex justify-between flex-col p-8 h-full w-full">
@@ -115,7 +116,7 @@ const Work_Projects = ({work_projects, loading, googleAnalytics }) => {
                       skeleton({ width: 'w-28', height: 'h-8' })
                     ) : (
                       <span className="text-base-content opacity-70">
-                        Apps I've Built At Work
+                        Apps I've Built At Work - 1
                       </span>
                     )}
                   </h5>
