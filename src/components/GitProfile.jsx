@@ -168,12 +168,12 @@ const GitProfile = ({ config }) => {
                       <Skill
                         loading={loading}
                         skills={sanitizedConfig.skills}
-                        title={'Tech Stack'}
+                        title='Tech Stack'
                       />
                       <Skill
                         loading={loading}
                         skills={sanitizedConfig.soft_skills}
-                        title={'Soft Skills'}
+                        title='Soft Skills'
                       />
                       <Experience
                         loading={loading}
