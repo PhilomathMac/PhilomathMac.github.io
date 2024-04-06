@@ -78,16 +78,13 @@ const Work_Projects = ({work_projects, loading, googleAnalytics }) => {
         <div className="flex justify-between flex-col p-8 h-full w-full">
           <div>
             <div className="flex items-center opacity-60">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 40">
-              <path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/>
-            </svg>
               <span>
                 <h5 className="card-title text-lg text-base-content">
                   {item.name}
                 </h5>
               </span>
             </div>
-            <div alignSelf="center" vspace="20" style={{maxWidth: "100%", objectFit: "contain", overflow: "hidden", borderRadius: "10px"}}>
+            <div alignSelf="center" vspace="20" style={{maxWidth: "1456px", maxHeight: "760px", overflow: "hidden", objectFit: "contain", overflow: "hidden", borderRadius: "10px"}}>
               <br/>
               <img src={item.image_url} onError={i => i.target.parentElement.style.display='none'}>
               </img>

@@ -120,7 +120,7 @@ const config = {
     {
       html_url: 'https://www.approachablegeek.com/work/idafan',
       name: 'Idafan',
-      image_url: '',
+      image_url: 'https://github.com/PhilomathMac/PhilomathMac.github.io/blob/main/idafan.png',
       description: 'Ticketing platform to help schools create and manage events. A purchasing system that adds tickets and passes to Apple wallet.',
     },
     {
@@ -134,6 +134,12 @@ const config = {
       name: 'Core Anesthesia',
       image_url: 'https://approachablegeek.work/PROJECT_IMAGE_CORE_1207a2fb56.png',
       description: 'Educational platform that offers a curriculum for CRNA\'s and med students. Includes media player, randomized quizzes, tests, and reports of user activity.',
+    },
+    {
+      html_url: 'https://www.approachablegeek.com/work/scout-traks',
+      name: 'ScoutTraks',
+      image_url: 'https://approachablegeek.work/PROJECT_IMAGE_8a120346e7_5e4b372847.png',
+      description: 'Project management software with iPad app to allow foreman to mark-up blueprints as they navigate construction sites without internet.',
     },
   ],
   experiences: [
