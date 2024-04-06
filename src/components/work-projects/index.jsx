@@ -75,7 +75,8 @@ const Work_Projects = ({work_projects, loading, googleAnalytics }) => {
           window?.open(item.html_url, '_blank');
         }}
       >
-        <div className="flex justify-between flex-col p-8 h-full w-full">
+      <div className="flex justify-between flex-col p-8 h-full w-full">
+        <div style={{ display: "flex", flexDirection: "column", height: "100%" }}>
           <div>
             <div className="flex items-center opacity-60">
               <span>
@@ -84,17 +85,17 @@ const Work_Projects = ({work_projects, loading, googleAnalytics }) => {
                 </h5>
               </span>
             </div>
-            <div alignSelf="center" vspace="20" style={{objectFit: "contain", overflow: "hidden", borderRadius: "10px"}}>
-              <br/>
-              <img src={item.image_url} onError={i => i.target.parentElement.style.display='none'} style={{width: "1158", height: "628", objectFit: "contain", overflow: 'hidden'}}>
-              </img>
-              <br/>
+            <div style={{ alignSelf: "center", marginBottom: "auto", marginTop: "auto", objectFit: "contain", overflow: "hidden", borderRadius: "10px" }}>
+              <br />
+                <img src={item.image_url} onError={i => i.target.parentElement.style.display = 'none'} style={{ width: "1158px", height: "628px", objectFit: "contain", overflow: 'hidden' }} alt={item.description} />
+              <br />
             </div>
             <p className="mb-5 mt-1 text-base-content text-opacity-60 text-sm">
               {item.description}
             </p>
           </div>
         </div>
+      </div>
       </a>
     ));
   };
