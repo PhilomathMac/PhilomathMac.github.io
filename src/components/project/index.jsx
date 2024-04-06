@@ -151,7 +151,7 @@ This section displays star and fork count
                       skeleton({ width: 'w-28', height: 'h-8' })
                     ) : (
                       <span className="text-base-content opacity-70">
-                        My Projects
+                        Personal Projects
                       </span>
                     )}
                   </h5>

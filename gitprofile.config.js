@@ -11,7 +11,7 @@ const config = {
     },
   },
   social: {
-    linkedin: '',
+    linkedin: 'www.linkedin.com/in/mckenzie-macdonald-2b5843236',
     twitter: '',
     facebook: '',
     instagram: '',
@@ -29,17 +29,16 @@ const config = {
     'UIKit',
     'Dart',
     'Flutter',
-    'Python',
     'Typescript',
     'Xcode',
     'Interface Builder',
     'Version Control',
+    'Source Control',
     'Git',
     'GitHub',
     'Debugging',
     'CI/CD',
-    'OOD',
-    'OOP',
+    'Unit Testing',
     'NoSQL',
     'SQL',
     'Web Application Development',
@@ -49,12 +48,6 @@ const config = {
     'Agile Software Development',
   ],
   education: [
-    {
-      institution: 'Udemy',
-      degree: 'The Git & GitHub Bootcamp',
-      from: 'June 2022',
-      to: 'Aug 2022',
-    },
     {
       institution: 'Apple',
       degree: 'App Development with Swift Certified User Certificate',
@@ -88,20 +81,62 @@ const config = {
   ],
   work_projects: [
     {
+      html_url: 'https://www.approachablegeek.com/work/my-book',
+      name: 'MyBook',
+      image_url: 'https://approachablegeek.work/Project_Thumb_cb2d971b45.png',
+      description: 'Mobile application for storing, viewing, and editing sheet music. Includes offline support, apple pencil markup, and performance mode.',
+    },
+    {
+      html_url: 'https://www.approachablegeek.com/work/mapi-fi',
+      name: 'Mapi-fi',
+      image_url: 'https://approachablegeek.work/mapifi_on_display_a0c37caa3d.png',
+      description: 'PDF markup used for wireless network design. Placing objects on document creates a heat map of network quality and generates a comprehensive report of materials.',
+    },
+    {
+      html_url: 'https://www.approachablegeek.com/work/ezilpro',
+      name: 'Ezilpro',
+      image_url: 'https://approachablegeek.work/PROJECT_IMAGE_EZILPRO_6e33f4be0d.png',
+      description: 'Beautiful customer relationship management platform with aggregation graphs, custom calendar, database management, change-logs, and chat.',
+    },
+    {
+      html_url: 'https://www.approachablegeek.com/work/rids-brother',
+      name: 'Rids Brother',
+      image_url: 'https://approachablegeek.work/rids_brother_preview3_0be7e2c098.png',
+      description: 'Customer relationship management platform and user app to help provide students with disabilities with transportation to school. Includes secure real-time tracking of drivers.',
+    },
+    {
       html_url: 'https://www.approachablegeek.com/work/idafan',
       name: 'Idafan',
-      image_url: 'https://approachablegeek.work/Idafan_ticket_38bdfe1930.webp',
-      description: 'Descriptiation testing',
-    }
+      image_url: '',
+      description: 'Ticketing platform to help schools create and manage events. A purchasing system that adds tickets and passes to Apple wallet.',
+    },
+    {
+      html_url: 'https://www.approachablegeek.com/work/penlitics',
+      name: 'Penlitics',
+      image_url: 'https://approachablegeek.work/penlitics_app_preview_dd911e47ad.png',
+      description: 'News app designed to educate users about politics and political bias. Includes polls, quizzes, and bias sorting of news articles.',
+    },
+    {
+      html_url: 'https://www.approachablegeek.com/work/core-anesthesia',
+      name: 'Core Anesthesia',
+      image_url: 'https://approachablegeek.work/PROJECT_IMAGE_CORE_1207a2fb56.png',
+      description: 'Educational platform that offers a curriculum for CRNA\'s and med students. Includes media player, randomized quizzes, tests, and reports of user activity.',
+    },
   ],
   experiences: [
-     {
+    {
       company: 'ApproachableGeek',
-      position: 'Software Engineer I',
-      from: 'May 2023',
+      position: 'Software Engineer II',
+      from: 'Jan 2024',
       to: 'Present',
     },
-     {
+    {
+      company: 'ApproachableGeek',
+      position: 'Software Engineer I',
+      from: 'Jan 2024',
+      to: 'Present',
+    },
+    {
       company: 'ApproachableGeek',
       position: 'Junior Software Developer',
       from: 'Jan 2023',
@@ -126,20 +161,6 @@ const config = {
       to: 'Sep 2017',
     }
   ],
-  // Display blog posts from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: '', // to hide blog section, keep it empty
-    limit: 3, // How many posts to display. Max is 10.
-  },
-  googleAnalytics: {
-    // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-    id: '', // Please remove this and use your own tag id or keep it empty
-  },
-  hotjar: {
-    id: '', //  Please remove this and use your own id or keep it empty
-    snippetVersion: 6,
-  },
   themeConfig: {
     defaultTheme: 'procyon',
 
