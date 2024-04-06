@@ -168,6 +168,12 @@ const GitProfile = ({ config }) => {
                       <Skill
                         loading={loading}
                         skills={sanitizedConfig.skills}
+                        title={'Tech Stack'}
+                      />
+                      <Skill
+                        loading={loading}
+                        skills={sanitizedConfig.soft_skills}
+                        title={'Soft Skills'}
                       />
                       <Experience
                         loading={loading}
@@ -265,6 +271,7 @@ GitProfile.propTypes = {
       email: PropTypes.string,
     }),
     skills: PropTypes.array,
+    soft_skills: PropTypes.array,
     education: PropTypes.arrayOf(
       PropTypes.shape({
         institution: PropTypes.string,

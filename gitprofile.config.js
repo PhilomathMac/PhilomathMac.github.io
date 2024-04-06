@@ -36,9 +36,10 @@ const config = {
     'Source Control',
     'Git',
     'GitHub',
+    'TDD',
     'Debugging',
-    'CI/CD',
     'Unit Testing',
+    'CI/CD',
     'NoSQL',
     'SQL',
     'Web Application Development',
@@ -46,6 +47,18 @@ const config = {
     'Concurrent Programming',
     'Trunk-Based Development',
     'Agile Software Development',
+  ],
+  soft_skills: [
+    'Collaboration',
+    'Verbal Communication',
+    'Written Communication',
+    'Organization',
+    'Detail oriented',
+    'Self-Motivation',
+    'Mentoring',
+    'Constant improvement',
+    'UI & UX Passion',
+    'Time management'
   ],
   education: [
     {
