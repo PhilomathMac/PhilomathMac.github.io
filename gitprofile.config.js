@@ -19,7 +19,7 @@ const config = {
     behance: '',
     medium: '',
     dev: '',
-    website: 'https://philomathmac.github.io',
+    website: '',
     phone: '',
     email: '',
   },
