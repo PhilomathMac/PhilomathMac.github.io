@@ -94,10 +94,22 @@ const config = {
   ],
   work_projects: [
     {
+      html_url: 'https://approachablegeek.com/work/ultimate-pest-control',
+      name: 'Ultimate Pest Control',
+      image_url: 'https://approachablegeek.work/UPC_mockup_in_display_eeb14fe48f.jpg',
+      description: 'Project management software to track thousands of pieces of cargo AND an associated mobile application that scans barcodes, performs complex calculations to make fumigant recommendations, and tracks data through a multistep fumigation process.',
+    },
+    {
       html_url: 'https://www.approachablegeek.com/work/mapi-fi',
       name: 'Mapi-fi',
       image_url: 'https://approachablegeek.work/mapifi_on_display_a0c37caa3d.png',
       description: 'PDF markup used for wireless network design. Placing objects on document creates a heat map of network quality and allows user to generate a comprehensive report of materials.',
+    },
+    {
+      html_url: 'https://approachablegeek.com/work/schroeder',
+      name: 'Schroeder',
+      image_url: 'https://approachablegeek.work/Schroeder_mockup_in_display_8fb8fae44b.png',
+      description: 'Project management software to track the progress of asphalt construction projects. Includes a custom calendar, employee timesheets, document upload, and offline capability.',
     },
     {
       html_url: 'https://www.approachablegeek.com/work/ezilpro',
@@ -116,6 +128,18 @@ const config = {
       name: 'Idafan',
       image_url: 'https://approachablegeek.work/Idafan_ticket_38bdfe1930.webp',
       description: 'Ticketing platform to help schools create and manage events. Also includes a purchasing system that adds tickets and passes to Apple Wallet.',
+    },
+    {
+      html_url: 'https://approachablegeek.com/work/buzz-cutt',
+      name: 'BuzzCutt',
+      image_url: 'https://approachablegeek.work/buzzcutt_products_6d752a6bf7.png',
+      description: 'Local search & discovery app to help users locate bars & restaurants that sell non-alcoholic options. Features custom map UI, user reviews, and custom map data processing.'
+    },
+    {
+      html_url: 'https://approachablegeek.com/work/yours-forever',
+      name: 'Yours Forever',
+      image_url: 'https://approachablegeek.work/Device_2_5f34ebef66.png',
+      description: 'Tool to help users find closure by replicating the voice of a lost loved one. Includes audio recording and uploading, text-to-speech transcription, and AI model training.'
     },
     {
       html_url: 'https://www.approachablegeek.com/work/my-book',
