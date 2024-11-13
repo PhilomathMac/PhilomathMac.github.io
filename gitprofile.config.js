@@ -96,7 +96,7 @@ const config = {
     {
       html_url: 'https://approachablegeek.com/work/ultimate-pest-control',
       name: 'Ultimate Pest Control',
-      image_url: 'https://approachablegeek.work/UPC_mockup_in_display_eeb14fe48f.jpg',
+      image_url: 'https://approachablegeek.work/Mockup_a1e2e4c63a.png',
       description: 'Project management software to track thousands of pieces of cargo AND an associated mobile application that scans barcodes, performs complex calculations to make fumigant recommendations, and tracks data through a multistep fumigation process.',
     },
     {
